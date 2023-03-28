@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+/* Your CSS Code here. */
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moviePic {
+	height: 80vh;
+/*   height: 300px;
+  width: 200px; */
+  opacity: 0.8;
+}
+
+.movieDetail {
+  position: relative;
+/*   top: -50px; */
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+}
